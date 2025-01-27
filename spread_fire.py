@@ -1,4 +1,10 @@
-import copy
+
+import random # for generate a random number
+import copy # to create a copy in memory of an object
+
+# for plots:
+import matplotlib.pyplot as plt
+from IPython.display import display, clear_output
 
 
 def spread_fire(grid):
